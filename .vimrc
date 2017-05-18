@@ -9,10 +9,6 @@ call vundle#begin()
 	Plugin 'octol/vim-cpp-enhanced-highlight'
 	Plugin 'tpope/vim-surround'
 	Plugin 'tpope/vim-commentary'
-	Plugin 'Yggdroot/indentline'
-
-	Plugin 'scrooloose/nerdtree'
-	Plugin 'altercation/vim-colors-solarized'
 call vundle#end()
 
 "Airline
@@ -45,21 +41,13 @@ set shiftwidth=2
 set splitright
 set splitbelow
 
-set conceallevel=1
-let g:indentLine_color_term = 239
-
 filetype plugin indent on 
 
 set laststatus=2
 
 set lazyredraw
 
-if v:version >= 704
-set breakindent
-endif
-
 let mapleader = ","
-nmap <leader>nt :NERDTreeToggle<cr>
 nmap <leader>t :tabnew<Space>
 nmap <leader>ht gT
 nmap <leader>lt gt
