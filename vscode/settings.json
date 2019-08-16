@@ -1,0 +1,133 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "window.nativeTabs": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "cSpell.userWords": [
+    "Exfiltration",
+    "Multivalue",
+    "Unlisten",
+    "Unmount",
+    "antd",
+    "deserialize",
+    "deserialized",
+    "dropdown",
+    "fileevent",
+    "lodash's",
+    "parameterize",
+    "queryservice",
+    "uids",
+    "unmounting",
+    "validators"
+  ],
+  "emmet.showExpandedAbbreviation": "never",
+  "tslint.configFile": "tslint.json",
+  "tslint.validateWithDefaultConfig": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "gitlens.historyExplorer.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.rulers": [
+    100
+  ],
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.showStatus": true,
+  "editor.lineNumbers": "relative",
+  // Vim Mode Settings
+  "vim.leader": ",",
+  "vim.useSystemClipboard": "true",
+  // Vim mode keybindings
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "s",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.splitEditorOrthogonal"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s",
+        "v"
+      ],
+      "commands": [
+        "workbench.action.splitEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "s"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "files.autoSave": "off",
+  "todo-tree.defaultHighlight": {
+    "foreground": "green",
+    "type": "none"
+  },
+  "todo-tree.customHighlight": {
+    "TODO": {},
+    "FIXME": {}
+  },
+  "window.zoomLevel": 0,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "editor.formatOnType": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.fontFamily": "\"Fira Code\"",
+  "editor.fontLigatures": true,
+  "files.associations": {
+    "*.vtd": "json"
+  },
+  "gitlens.views.repositories.files.layout": "tree",
+  "workbench.activityBar.visible": true,
+  "spellright.configurationScope": "user",
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "typescript"
+  ],
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#999999"
+  },
+  "workbench.colorTheme": "Horizon Italic"
+}
